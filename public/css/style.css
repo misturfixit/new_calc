@@ -1,10 +1,10 @@
 .color {
-color:khaki; 
+color: khaki; 
  	
-font-size: xx-large;
+font-size: x-large;
 }
 .size{
-font-size: 500%
+font-size: 300%
 }
 .center{
 text-align: center;	
@@ -17,17 +17,17 @@ padding: right: 6rem;
 h1{
 text-align: center; 	
 text-decoration: blink;	
-background-color: brown;	
+background-color: coral;	
 }
 div{
-background-color: orange;	
+background-color: darksalmon;	
 }
 a{
-background-color: brown; 
+background-color: darkslategray; 
 border-style: ridge;
 }
 body{
-background-image: url(/photos/dryridgeowl.jpg);
+background-image: url(/photos/nerdblind.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -40,7 +40,7 @@ background-size: cover;
 }
 
 .dropdown-content {
-   
+    display: hidden; 
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
