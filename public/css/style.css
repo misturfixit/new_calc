@@ -1,0 +1,64 @@
+.color {
+color:khaki; 
+ 	
+font-size: xx-large;
+}
+.size{
+font-size: 500%
+}
+.center{
+text-align: center;	
+}
+
+ul{text-align: center; 
+display: inline;
+padding: right: 6rem; 
+}
+h1{
+text-align: center; 	
+text-decoration: blink;	
+background-color: brown;	
+}
+div{
+background-color: orange;	
+}
+a{
+background-color: brown; 
+border-style: ridge;
+}
+body{
+background-image: url(/photos/dryridgeowl.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.dropdown {
+ 	position: relative;
+ 	display: inline-block;
+}
+
+.dropdown-content {
+   
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*<style>
+</style>
+
+<div class="dropdown">
+  <span>Mouse over me</span>
+  <div class="dropdown-content">
+    <p>Hello World!</p>
+  </div>
+</div>
+*/
