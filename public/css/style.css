@@ -9,22 +9,37 @@ font-size: 300%
 .center{
 text-align: center;	
 }
+p{
+text-decoration-color: green 
 
-ul{text-align: center; 
+}
+ul{
+text-align: center; 
 display: inline;
 padding: right: 6rem; 
 }
 h1{
+width: 300px;
+height: 100px;
+border: 1px solid blue;
+border-width: large;
+border-radius: ;
+border-style: ridge;
 text-align: center; 	
 text-decoration: blink;	
-background-color: coral;	
+background-image: url(/photos/nerdblind.jpg);	
+}
+h2{
+background-color: #DEB887;
+text-decoration-color: #D2691E;  
 }
 div{
 background-color: darksalmon;	
 }
-a{
+a-href{
+text-decoration-color: pink  
 background-color: darkslategray; 
-border-style: ridge;
+
 }
 body{
 background-image: url(/photos/nerdblind.jpg);
@@ -33,16 +48,18 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
-
+<html>
+<head>
+<style>
 .dropdown {
  	position: relative;
  	display: inline-block;
 }
 
 .dropdown-content {
-    display: hidden; 
+    display: none; 
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #FAEBD7;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
@@ -52,13 +69,5 @@ background-size: cover;
 .dropdown:hover .dropdown-content {
     display: block;
 }
-/*<style>
 </style>
-
-<div class="dropdown">
-  <span>Mouse over me</span>
-  <div class="dropdown-content">
-    <p>Hello World!</p>
-  </div>
-</div>
-*/
+</head>
