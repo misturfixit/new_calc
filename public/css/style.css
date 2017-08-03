@@ -10,39 +10,35 @@ font-size: 300%
 text-align: center;	
 }
 p{
-text-decoration-color: green 
-
+color: firebrick 
 }
 ul{
 text-align: center; 
 display: inline;
 padding: right: 6rem; 
 }
-h1{
-width: 300px;
-height: 100px;
-border: 1px solid blue;
+h1{  
+text-align: center;   
+text-decoration-color: firebrick;
+width: 250px;
+height: 80px;
+border: 7px rgb(152,152,152);
 border-width: large;
-border-radius: ;
-border-style: ridge;
-text-align: center; 	
-text-decoration: blink;	
-background-image: url(/photos/nerdblind.jpg);	
+border-style: ridge;	
+background-image: url(/photos/dunezona.jpg);	
 }
 h2{
+text-align: center;   
+width: 200px;
+height: 30px; 
 background-color: #DEB887;
-text-decoration-color: #D2691E;  
 }
-div{
-background-color: darksalmon;	
-}
-a-href{
-text-decoration-color: pink  
-background-color: darkslategray; 
-
+footer{
+text-align: right;   
 }
 body{
-background-image: url(/photos/nerdblind.jpg);
+
+background-image: url(/photos/sunset0.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
