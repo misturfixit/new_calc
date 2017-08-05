@@ -30,8 +30,8 @@ users.each_pair do |nam, p_w|
 end
 
 get '/newroute' do 
-	"You are here ,,,And this is nowhere"
-	#redirect '/snuffin'
+	"You are here ,,,And this is Nowhere"
+	
 end
 
 
@@ -43,7 +43,6 @@ end
 post '/name' do
 	f_name = params[:f_name]
 	l_name = params[:l_name]
-	# "#{f_name} #{l_name}" 
 	redirect '/thework?f_name=' + f_name + '&l_name=' + l_name
 end
 
@@ -61,12 +60,8 @@ post '/thework' do
 	l_name = params[:l_name]
 	n1 = params[:n1]
 	n2 = params[:n2]
-	#p "n2secnum #{n2}"
 	answer = calcy(func,n1.to_i,n2.to_i)
-	#p answer
 	answer = answer.to_s
-	
-	#{}"n2secnum #{n2}"
 	redirect '/results?f_name='+f_name+'&l_name='+'&func='+func+'&n1='+n1+'&n2='+n2+'&answer='+answer
 end
 
