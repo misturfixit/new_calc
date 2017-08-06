@@ -3,7 +3,13 @@
   font-size: large;
 }
 .size{
-  font-size: 250%
+  font-size: 250%;
+}
+.size1{
+  font-size: 300%;
+}
+.size2{
+  font-size: 205%;
 }
 .center{
   align-self: center;
@@ -19,19 +25,20 @@
 .dropdown-content{
   display: none; 
   position: fixed;
+  margin-top: -3;
   background-color: gray;
-  min-width: 160px;
+  min-width: 180px;
   box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
   z-index: 1;
 }
 .dropdown:hover .dropdown-content{
   display: block;
+  text-decoration-color: firebrick;
 }
 form input{
   text-align: left; 
-  border:13px rgb(152,152,152);
-  border-width: large;
+  border:10px rgb(152,152,152);
   border-style: ridge;  
 
 }
@@ -45,20 +52,25 @@ ul{
   padding: right: 6rem; 
 }
 button{
+  color: white;
+  border:7px rgb(152,152,152);
+  border-style: ridge;
   text-align: center;
   width: 350px;
-  height: 40px;
-  padding: 10px;
+  height: 80px;
+  padding: 15px;
+  background-image: url(/photos/board.jpg);  
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1{  
   margin-left: 25rem;
   text-align: center; 
-  color:  silver; 
+  color:  white; 
   width: 550px;
   height: 80px;
-  padding: 10px;*/
+  padding: 5px;
   border:17px rgb(152,152,152);
-  border-width: large;
   border-style: ridge;	
   background-image: url(/photos/brdtrace.jpg);	
   background-repeat: no-repeat;
@@ -90,7 +102,6 @@ body{
   background-size: cover;
 }
 footer{
-
   margin-left: 1000px;
   text-align: center;
   width: 250px;   
