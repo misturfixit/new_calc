@@ -3,7 +3,7 @@
   font-size: large;
 }
 .size{
-  font-size: 300%
+  font-size: 200%
 }
 .center{
   align-self: center;
@@ -25,10 +25,12 @@
 }
 .dropdown:hover .dropdown-content{
   display: block;
+
 }
 form input{
   text-align: center; 
 }
+
 p{
   text-align: left;
   color: firebrick;
@@ -39,24 +41,22 @@ ul{
   padding: right: 6rem; 
 }
 button{
- 
   text-align: center;
-  margin: 20;
-  width: 150px;
+  margin-left: 100rem
+  max-width: 150px;
   height: 40px;
   padding: 10px;
 }
 h1{  
-  
+  margin-left: 30rem;
   text-align: center; 
-  color: red; 
+  color: blue; 
   width: 350px;
   height: 80px;
-  padding: 10px;
+  padding: 10px;*/
   border:7px rgb(152,152,152);
   border-width: medium;
   border-style: ridge;	
-  margin: 1;
   background-image: url(/photos/board.jpg);	
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,15 +70,26 @@ h2{
 }
 h3{
   text-align: center;
-  color:red;
+  color: #FF4500;
   text-align: center;    
 }
+h4{
+  color: #DC143C; 
+}
+h5{
+  color: #FF4500;
+}
 footer{
-  text-align: right;   
+  text-align: right;
+  width: 350px;   
+  border:7px rgb(152,152,152);
+  border-width: medium;
+  border-style: ridge;  
 }
 body{
   text-align: center;  
-  background-image: url(/photos/qwerty.jpg);
+  align-content: center;
+  background-image: url(/photos/popforkfall.jpg);
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
